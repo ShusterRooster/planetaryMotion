@@ -1,0 +1,16 @@
+{
+  "name": "space-box",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/p5": "^1.7.6",
+    "p5": "^1.9.2"
+  }
+}

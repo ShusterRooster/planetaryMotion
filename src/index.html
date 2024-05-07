@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>spaceBox</title>
+    <script src="../node_modules/p5/lib/p5.js" type="module"></script>
+    <script src="main.ts" type="module"></script>
+</head>
+<style>
+    body {
+        background-color: #1b0326;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+
+    #canvas {
+        cursor: move;
+    }
+
+    #GUIMain {
+        font-family: OCR A Std, monospace;
+        user-select: none;
+        color: white;
+
+        min-width: fit-content;
+        min-height: fit-content;
+        padding: 10px 20px 10px 20px;
+        background-color: rgba(0,0,0,0.66);
+        border-radius: 25px;
+    }
+
+    .GUIChild {
+        padding: 10px;
+    }
+
+</style>
+<body>
+<canvas id="canvas"></canvas>
+
+</body>
+</html>
